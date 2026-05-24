@@ -1,0 +1,13 @@
+pynput>=1.7.6
+# Image processing -- required by the OCR-based fn 1 auto-calibration and
+# by the legacy fn 2 ripple variants.
+numpy>=1.24
+Pillow>=10.0
+# OCR for the fn 1 auto-calibration. Requires the `tesseract` binary on
+# PATH -- install via Homebrew (`brew install tesseract`) on macOS or
+# `apt install tesseract-ocr` on Linux.
+pytesseract>=0.3.10
+# macOS: enables OS-level BlueStacks window auto-detect plus thread-safe
+# AppKit NSScreen reads.
+pyobjc-framework-Quartz>=9.0; sys_platform == "darwin"
+pyobjc-framework-Cocoa>=9.0; sys_platform == "darwin"
