@@ -25,6 +25,7 @@ Post Apo Tycoon autoclicker
 7. User-friendly calibration of game [x;y] into ADB [x;y].
 8. All settings stored in .json files in script folder.
 9. Automatic ADB source configure.
+10. On-fly offset changes with hotkeys for better clicking accuracy.
 
 
 <br>
@@ -151,13 +152,16 @@ Press Enter to Hold-to-Spam. While this active, holding side mouse button OR mid
 ### 5. Polygon Clicker
 After pressing button draw a polygon where you want to randomly send left clicks with transparent overlay. After that determine clicks per second. Press ```Shift + 2``` and script will send clicks randomly within selected area. Press ```Shift + 2``` to stop.
 
+### 5. Live ADB offset...
+If script missing some settlements or have bad accuracy for spamming you can use arrow keys on keyboard or buttons in this menu to calibrate dX and dY offsets on fly to increase accuracy.
+
 
 <br>
 
 ## ✅ Known bugs
 
 1. After consecutive hours of clicking ADB may bug out and will not stop sending clicks after pressing Shift + 1 (or closing script). Re-launch Bluestacks.
-2. Function 2 with hold-to-spam can be off-cursor position. Can be edited with Live ADB offset on fly.
+2. Feature with hold-to-spam can be off-cursor position. Can be edited with Live ADB offset on fly.
 
 
 <br>
