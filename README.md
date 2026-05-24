@@ -34,8 +34,11 @@ Post Apo Tycoon autoclicker
 >Requires Bluestacks (or Bluestacks Air for MacOS) with enabled ADB (settings > advanced) and "Show pointer location" to emulate android on PC.
 
 ### Windows
-Copy script files from this repo (better in separate folder) in any place.
+Copy script files from this repo (better in separate folder) in any place or use this command and unzip.
 
+```
+curl -L -O https://github.com/skyfire-e/PATac/releases/download/v1.0.4/PATac1.0.4.zip
+```
 Install Python in terminal (win+X > terminal (admin) )
 ```
 winget install Python.Python.3.12
@@ -102,7 +105,11 @@ Install Python dependencies in venv
 ```
 pip install pynput numpy Pillow pytesseract pyobjc-framework-Quartz pyobjc-framework-Cocoa
 ```
-Copy script files from this repo in PATac folder.
+Copy script files from this repo in PATac folder or use this command and unzip.
+
+```
+curl -O ~/PATac "https://github.com/skyfire-e/PATac/releases/download/v1.0.4/PATac1.0.4.zip"
+```
 
 
 <br>
