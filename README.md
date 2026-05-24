@@ -16,9 +16,9 @@ Post Apo Tycoon autoclicker
 <br>
 
 ## ✅ Features
-1. Mode to click listed settlements (will click invisible on max zoom non-main settlements).
+1. Mode to click listed settlements (will click non-main settlements that are invisible on max zoom).
 2. Mode to send up to 30 clicks per second into pointer location.
-3. Mode to draw a polygon and send randomized clicks per second in randomized location (useful for some in-game events).
+3. Mode to draw a polygon and send randomized clicks per second in randomized points inside polygon (useful for some in-game events).
 4. GUI/TUI.
 5. Automatic ADB source configure.
 6. Windows and MacOS crossplatform.
