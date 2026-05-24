@@ -16,15 +16,15 @@ Post Apo Tycoon autoclicker
 <br>
 
 ## ✅ Features
-1. Windows and MacOS crossplatform.
-2. Can work in background (using ADB).
-3. GUI/TUI.
-4. Mode to click listed settlements (will click invisible on max zoom non-main settlements).
-5. Mode to send 30 clicks per second into pointer location.
-6. Mode to draw a polygon and send randomized clicks per second in randomized location.
-7. User-friendly calibration of game [x;y] into ADB [x;y].
+1. Mode to click listed settlements (will click invisible on max zoom non-main settlements).
+2. Mode to send up to 30 clicks per second into pointer location.
+3. Mode to draw a polygon and send randomized clicks per second in randomized location (useful for some in-game events).
+4. GUI/TUI.
+5. Automatic ADB source configure.
+6. Windows and MacOS crossplatform.
+7. Can work in background (using ADB).
 8. All settings stored in .json files in script folder.
-9. Automatic ADB source configure.
+9. User-friendly calibration of game [x;y] into ADB [x;y].
 10. On-fly offset changes with hotkeys for better clicking accuracy.
 
 
