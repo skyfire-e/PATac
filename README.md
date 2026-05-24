@@ -41,7 +41,7 @@ Install Python in terminal (win+X > terminal (admin) )
 winget install Python.Python.3.12
 ```
 
-Re-launch terminal, install pip
+Re-launch terminal, update pip
 
 ```
 python -m pip install --upgrade pip
