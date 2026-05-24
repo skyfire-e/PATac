@@ -156,8 +156,8 @@ After pressing button draw a polygon where you want to randomly send left clicks
 
 ## ✅ Known bugs
 
-After consecutive hours of clicking ADB may bug and not stop sending clicks after pressing Shift + 1 or stopping script. Re-launch Bluestacks.
-Function 2 with hold-to-spam can be off-cursor position. Can be edited with Live ADB offset on fly.
+1. After consecutive hours of clicking ADB may bug out and will not stop sending clicks after pressing Shift + 1 (or closing script). Re-launch Bluestacks.
+2. Function 2 with hold-to-spam can be off-cursor position. Can be edited with Live ADB offset on fly.
 
 
 <br>
