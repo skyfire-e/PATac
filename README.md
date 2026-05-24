@@ -110,7 +110,7 @@ Copy script files from this repo in PATac folder.
 
 ### 1. Launch
 
-For Windows navigate in terminal (using cd) into folder where you copied repo files and run ```python pat_clicker_gui.py``` for GUI version or ```python pat_clicker.py``` for TUI version
+For Windows navigate in terminal (using cd) into folder where you copied repo files and run ```python pat_clicker_gui.py``` for GUI version or ```python pat_clicker.py``` for TUI version.
 
 For MacOS in terminal use for GUI (swap ```python pat_clicker_gui.py``` for ```python pat_clicker.py``` for TUI)
 ```
@@ -122,7 +122,7 @@ Or create alias
 ```
 alias PATac='cd ~/post_apo_clicker && source venv/bin/activate && python python pat_clicker_gui.py'
 ```
-And next launches just type in terminal
+For next launches just type in terminal
 ```
 PATac
 ```
