@@ -137,10 +137,10 @@ PATac
 
 ### 2. Initial Setups (for GUI, for TUI just type corresponding menu number)
 2.1. Settings, Zoom Out and swipe calibration
->   After pressing this button, hold left click over "Settings" button in Post Apo Tycoon and type ADB X and Y coordinates of the Settings button into pop up window. Then do the same for Zoom Out button (that appears after clicking Settings). Next hold left click in the middle (but try to hold NOT on settlements) and type ADB coordinates for start of swipe. Then drag map to allign bottom main settlement in an area of "Claim" button that appears in daily reset. That way when it appears and pause your farming, it will be automatically clicked through. Type second coordinates where the mouse cursor is located after this drag.
+>   After pressing this button, hold left click over "Settings" button in Pest Apollo Tycoon and type ADB X and Y coordinates of the Settings button into pop up window. Then do the same for Zoom Out button (that appears after clicking Settings). Next hold left click in the middle (but try to hold NOT on settlements) and type ADB coordinates for start of swipe. Then drag map to allign bottom main settlement in an area of "Claim" button that appears in daily reset. That way when it appears and pause your farming, it will be automatically clicked through. Type second coordinates where the mouse cursor is located after this drag.
 
 2.2. Calibrate
->   In Post Apo Tycoon press [X] to close building menu (if persist). Make sure that there is only 4 bottom buttons (stats, upgrades, gemshop, settings) and they are alligned in the middle (via game options).
+>   In Pest Apollo Tycoon press [X] to close building menu (if persist). Make sure that there is only 4 bottom buttons (stats, upgrades, gemshop, settings) and they are alligned in the middle (via game options).
 >   Press Calibrate button and confirming with OK game will do subsequence of settings > zoom out > drag. After this select with transparent polygon zoomed out game map borders (e.g. put polygon smaller than game map within it borders). After this script will do subsequence of clicks. After each tap script will ask to draw a rectangle over game [x: , y: ] coordinates over game window in blue stacks. It is located in the header of building menu just to the left of [X] close button of building menu. Try to draw polygon with a couple of pixels to spare around game x and y. After you draw polygon wait a little for script to send another tap and coordinates to change. When script will finish it sends confirmation window.
 
 2.3. Clicker options
@@ -152,7 +152,7 @@ PATac
 
 
 ### 3. Using Main Clicker
-> In Post Apo Tycoon press [X] to close building menu (if persist). Make sure that there is only 4 bottom buttons (stats, upgrades, gemshop, settings) and they are alligned in the middle (via game options).
+> In Pest Apollo Tycoon press [X] to close building menu (if persist). Make sure that there is only 4 bottom buttons (stats, upgrades, gemshop, settings) and they are alligned in the middle (via game options).
 
 Press Start Main Clicker. Press ```Shift + 1``` to launch subsequence settings > zoom out > drag map > automatically send 1 tap into game [x:1,y:1] and OCR verify calibrations > after 1 sec starts sending left clicks into points. Press ```Shift + 1``` again to stop.  
 
