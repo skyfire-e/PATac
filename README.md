@@ -1,5 +1,6 @@
 # PATac
 not-Pest not-Apollo Tycoon deep automation script. 
+
 Automises clicks on tiles of game map with defined clicks per second.
 
 
