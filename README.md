@@ -213,4 +213,4 @@ If script missing some settlements or have bad accuracy for spamming you can use
 <br>
 
 ## ✅ License
-Use at your own risk. Watch out for missclick and gem spending. Do not violate any game rules. 
+Use at your own risk. Watch out for missclick and diamonds spending. Do not violate any game rules. 
