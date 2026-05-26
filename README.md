@@ -25,7 +25,7 @@ Key features:
 2. Mode to send up to 30 clicks per second into pointer location.
 3. Mode to draw a polygon and send specified count of clicks per second in randomized points inside this polygon (useful for some in-game events).
 
-Additional & Technical
+Additional & Technical:
 
 4. GUI/TUI.
 5. Automatic ADB source configure.
