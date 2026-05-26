@@ -18,9 +18,15 @@ Automises clicks on tiles of game map with defined clicks per second.
 <br>
 
 ## ✅ Features
+
+Key features:
+
 1. Mode to click listed points (will click non-main villages that are invisible on max zoom).
 2. Mode to send up to 30 clicks per second into pointer location.
 3. Mode to draw a polygon and send specified count of clicks per second in randomized points inside this polygon (useful for some in-game events).
+
+Additional & Technical
+
 4. GUI/TUI.
 5. Automatic ADB source configure.
 6. Windows and MacOS crossplatform.
