@@ -15,6 +15,7 @@ Automises clicks on tiles of game map with defined clicks per second.
 [License](#-license)
 
 
+
 <br>
 
 ## ✅ Features
@@ -41,7 +42,10 @@ Additional & Technical:
 ## ✅ Install
 >Requires Bluestacks (or Bluestacks Air for MacOS) with enabled ADB (settings > advanced) and "Show pointer location" to emulate android on PC.
 
-### Windows
+<details>
+<summary><b>Windows</b></summary>
+
+
 Copy script files from this repo (better in separate folder) in any place or use this command and unzip.
 
 ```
@@ -76,8 +80,13 @@ Install Python dependencies
 pip install pynput numpy Pillow pytesseract
 ```
 
+</details>
 
-### MacOS
+
+<details>
+<summary><b>MacOS</b></summary>
+
+
 
 Isntall Homebrew
 ```
@@ -119,6 +128,9 @@ Copy script files from this repo in PATac folder or use this command and unzip.
 curl -O ~/PATac "https://github.com/skyfire-e/PATac/releases/download/v1.0.4/PATac1.0.4.zip"
 ```
 
+</details>
+
+
 
 <br>
 
@@ -126,9 +138,20 @@ curl -O ~/PATac "https://github.com/skyfire-e/PATac/releases/download/v1.0.4/PAT
 
 ### 1. Launch
 
-For Windows navigate in terminal (using cd) into folder where you copied repo files and run ```python pat_clicker_gui.py``` for GUI version or ```python pat_clicker.py``` for TUI version.
 
-For MacOS in terminal use for GUI (swap ```python pat_clicker_gui.py``` for ```python pat_clicker.py``` for TUI)
+<details>
+<summary>Windows</summary>
+
+  
+For Windows navigate in terminal (using cd) into folder where you copied repo files and run ```python pat_clicker_gui.py``` for GUI version or ```python pat_clicker.py``` for TUI version.
+</details>
+
+
+<details>
+<summary>MacOS</summary>
+
+  
+In terminal use for GUI (swap ```python pat_clicker_gui.py``` for ```python pat_clicker.py``` for TUI)
 ```
 cd ~/PATac
 source venv/bin/activate
@@ -142,21 +165,26 @@ For next launches just type in terminal
 ```
 PATac
 ```
+</details>
 
 ### 2. Initial Setups (for GUI, for TUI just type corresponding menu number)
-2.1. Settings, Zoom Out and swipe calibration
->   After pressing this button, hold left click over "Settings" button in Pest Apollo Tycoon and type ADB X and Y coordinates of the Settings button into pop up window. Then do the same for Zoom Out button (that appears after clicking Settings). Next hold left click in the middle (but try to hold NOT on settlements) and type ADB coordinates for start of swipe. Then drag map to allign bottom main settlement in an area of "Claim" button that appears in daily reset. That way when it appears and pause your farming, it will be automatically clicked through. Type second coordinates where the mouse cursor is located after this drag.
-
-2.2. Calibrate
->   In Pest Apollo Tycoon press [X] to close building menu (if persist). Make sure that there is only 4 bottom buttons (stats, upgrades, gemshop, settings) and they are alligned in the middle (via game options).
->   Press Calibrate button and confirming with OK game will do subsequence of settings > zoom out > drag. After this select with transparent polygon zoomed out game map borders (e.g. put polygon smaller than game map within it borders). After this script will do subsequence of clicks. After each tap script will ask to draw a rectangle over game [x: , y: ] coordinates over game window in blue stacks. It is located in the header of building menu just to the left of [X] close button of building menu. Try to draw polygon with a couple of pixels to spare around game x and y. After you draw polygon wait a little for script to send another tap and coordinates to change. When script will finish it sends confirmation window.
-
-2.3. Clicker options
->   Type desired clicks per second that will be sent across ALL settlements (e.g. for 5 clicks per second across 5 points input 25 here).
-
-2.4. Points where to click
->   Script comes with pre-recorded 5 main settlements game X and Y coordinates. You can press Edit points list button and add/edit/delete desired points to click. You can also edit points.json directly. Use game coordinates in this settings.
-
+<details>
+<summary>2.1. Settings, Zoom Out and swipe calibration</summary>
+After pressing this button, hold left click over "Settings" button in Pest Apollo Tycoon and type ADB X and Y coordinates of the Settings button into pop up window. Then do the same for Zoom Out button (that appears after clicking Settings). Next hold left click in the middle (but try to hold NOT on settlements) and type ADB coordinates for start of swipe. Then drag map to allign bottom main settlement in an area of "Claim" button that appears in daily reset. That way when it appears and pause your farming, it will be automatically clicked through. Type second coordinates where the mouse cursor is located after this drag.
+</details>
+<details>
+<summary>2.2. Calibrate</summary>
+In Pest Apollo Tycoon press [X] to close building menu (if persist). Make sure that there is only 4 bottom buttons (stats, upgrades, gemshop, settings) and they are alligned in the middle (via game options).
+Press Calibrate button and confirming with OK game will do subsequence of settings > zoom out > drag. After this select with transparent polygon zoomed out game map borders (e.g. put polygon smaller than game map within it borders). After this script will do subsequence of clicks. After each tap script will ask to draw a rectangle over game [x: , y: ] coordinates over game window in blue stacks. It is located in the header of building menu just to the left of [X] close button of building menu. Try to draw polygon with a couple of pixels to spare around game x and y. After you draw polygon wait a little for script to send another tap and coordinates to change. When script will finish it sends confirmation window.
+</details>
+<details>
+<summary>2.3. Clicker options</summary>
+Type desired clicks per second that will be sent across ALL settlements (e.g. for 5 clicks per second across 5 points input 25 here).
+</details>
+<details>
+<summary>2.4. Points where to click</summary>
+Script comes with pre-recorded 5 main settlements game X and Y coordinates. You can press Edit points list button and add/edit/delete desired points to click. You can also edit points.json directly. Use game coordinates in this settings.
+</details>
 
 
 ### 3. Using Main Clicker
